@@ -39,7 +39,7 @@ if __name__ == "__main__":
         while True:
             send_dhcp_discover(interface)
             time.sleep(0.5)  # Adjust delay (0.5 sec between packets)
-    except KeyboardInterrupt:
+    except KeyboardInterrupt:  #CTR+C
         print("\n[!] Attack stopped by user.")
 
 
